@@ -7,7 +7,11 @@ Windows wallet setup
 -----------------------------
 
 Download windows wallet from these locations:
-for 32bit/64bit: 
+for 64bit: 
+https://github.com/MyMNProject/mymn/releases/download/1.0.0.0/mymn-qt-Win64.zip
+
+For other versions such as Mac OSX OR linux QT head over to:
+https://github.com/MyMNProject/mymn/releases/tag/1.0.0.0
 
 run it. if you cannot get it to sync. got to windows start and type:
 %appdata% 
