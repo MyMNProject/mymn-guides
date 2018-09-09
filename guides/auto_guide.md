@@ -17,12 +17,11 @@ find the "mymn" folder and double click on it.
 right click on "mymn.conf" and open it with notepad or any text editor.
 When file is loaded, add more nodes by copy and paste this:
 
-* addnode=:10261
-* addnode=:10261
-* addnode=:10261
-* addnode=:10261
-* addnode=:10261
-* addnode=:10261
+* addnode=139.99.196.73:10261
+* addnode=139.99.202.60:10261
+* addnode=139.99.197.135:10261
+* addnode=139.99.158.38:10261
+* addnode=139.99.159.77:10261
 
 save file and exit.
 
@@ -42,21 +41,14 @@ now move on to linux vps setup.
 
 Log into your linux Vps and copy the line below and press enter:
 
-* cd && bash -c "$(wget -O - https://raw.githubusercontent.com/telostia/mymn-guides/master/guides/mymn_auto.sh)"
-
+cd && bash -c "$(wget -O - https://raw.githubusercontent.com/telostia/mymn-guides/master/guides/masternode_auto.sh)"
 when asked to paste genkey. right click to paste your genkey in.
-
-#devfeeupgrade script
-* cd && bash -c "$(wget -O - https://raw.githubusercontent.com/telostia/mymn-guides/master/guides/devfeeupgrade.sh)"
-
-#MN testing script
-* cd && bash -c "$(wget -O - https://raw.githubusercontent.com/telostia/mymn-guides/master/guides/masternode_auto.sh)"
 
 ---------------------------------
 Windows wallet to add masternode 
 ---------------------------------
 
-1.   Open the VET Coin Desktop Wallet. 
+1.   Open the MyMN Coin Desktop Wallet. 
 2.   Go to RECEIVE and create a New Address: MN1 
 3.   Send 20000 mymn to MN1. 
 4.   Wait for confirmations. 
