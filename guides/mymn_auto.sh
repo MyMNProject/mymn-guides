@@ -37,7 +37,7 @@ echo -e "${GREEN}Preparing config file ${NONE}";
 rm -rf $HOME/.mymn
 sudo mkdir $HOME/.mymn
 
-printf "addnode=139.99.159.113:10261\naddnode=139.99.159.77:10261\naddnode=139.99.197.112:10261\naddnode=139.99.196.73:10261\naddnode=139.99.202.60:10261\naddnode=139.99.158.38:10261\naddnode=220.233.78.249:10261\n\nrpcuser=mymn432345$PASSW\nrpcpassword=$PASSW\\ndaemon=1\nlisten=1" >  $HOME/.mymn/mymn.conf
+printf "addnode=139.99.159.113:10261\naddnode=139.99.159.77:10261\naddnode=139.99.197.112:10261\naddnode=139.99.196.73:10261\naddnode=139.99.202.60:10261\naddnode=139.99.158.38:10261\n\nrpcuser=mymn432345$PASSW\nrpcpassword=$PASSW\\ndaemon=1\nlisten=1" >  $HOME/.mymn/mymn.conf
 
 mymnd
 watch mymn-cli getinfo
