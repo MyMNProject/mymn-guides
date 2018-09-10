@@ -31,7 +31,7 @@ sudo ufw allow 10261/tcp
 #masternode input
 
 echo -e "${GREEN}Now paste your Masternode key by using right mouse click and press ENTER ${NONE}";
-read MNKEY
+read MNKEY 
 
 EXTIP=`curl -s4 icanhazip.com`
 USER=`pwgen -1 20 -n`
@@ -46,4 +46,6 @@ printf "addnode=139.99.168.121:10261\naddnode=139.99.159.113:10261\naddnode=139.
 
 mymnd
 watch mymn-cli getinfo
+
+
 
