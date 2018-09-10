@@ -45,7 +45,7 @@ now move on to linux vps setup.
 
 Log into your linux Vps and copy the line below and press enter:
 
-cd && bash -c "$(wget -O - https://raw.githubusercontent.com/MyMNProject/mymn-guides/master/guides/masternode_auto.sh)"
+* cd && bash -c "$(wget -O - https://raw.githubusercontent.com/MyMNProject/mymn-guides/master/guides/masternode_auto.sh)"
 when asked to paste genkey. right click to paste your genkey in.
 
 ---------------------------------
