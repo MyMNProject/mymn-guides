@@ -26,6 +26,8 @@ When file is loaded, add more nodes by copy and paste this:
 * addnode=139.99.197.135:10261
 * addnode=139.99.158.38:10261
 * addnode=139.99.159.77:10261
+* addnode=81.2.240.125:10261
+* addnode=85.255.3.43:10261
 
 save file and exit.
 
