@@ -42,7 +42,7 @@ echo -e "${GREEN}Preparing config file ${NONE}";
 rm -rf $HOME/.mymn
 sudo mkdir $HOME/.mymn
 
-printf "addnode=139.99.168.121:10261\naddnode=139.99.159.113:10261\naddnode=139.99.159.77:10261\naddnode=139.99.197.112:10261\naddnode=139.99.197.135:10261\naddnode=139.99.196.73:10261\naddnode=139.99.202.60:10261\naddnode=139.99.158.38:10261\n\nrpcuser=mymn$USER\nrpcpassword=$PASSW\\ndaemon=1\nlisten=1\nrpcport=66541\nrpcallowip=127.0.0.1\nserver=1\nmaxconnections=154\nexternalip=$EXTIP:10261\nmasternode=1\nmasternodeprivkey=$MNKEY" >  $HOME/.mymn/mymn.conf
+printf "addnode=85.255.3.43:10261\naddnode=81.2.240.125:10261\naddnode=139.99.168.121:10261\naddnode=139.99.159.113:10261\naddnode=139.99.159.77:10261\naddnode=139.99.197.112:10261\naddnode=139.99.197.135:10261\naddnode=139.99.196.73:10261\naddnode=139.99.202.60:10261\naddnode=139.99.158.38:10261\n\nrpcuser=mymn$USER\nrpcpassword=$PASSW\\ndaemon=1\nlisten=1\nrpcport=66541\nrpcallowip=127.0.0.1\nserver=1\nmaxconnections=154\nexternalip=$EXTIP:10261\nmasternode=1\nmasternodeprivkey=$MNKEY" >  $HOME/.mymn/mymn.conf
 
 mymnd
 watch mymn-cli getinfo
