@@ -16,7 +16,7 @@ The result if extra to C: drive is C:\mymn-qt-Win64-with-bootstrap\
 
 ![Alt text](https://raw.githubusercontent.com/MyMNProject/mymn-guides/master/images/folder.png "Unzip Content")
 
-Double click on Install-Windows-MYMN.cmd and a screen simular to below appears:
+Double click on Install-Windows-MYMN.cmd and a screen similar to below appears:
 
 ![Alt text](https://raw.githubusercontent.com/MyMNProject/mymn-guides/master/images/install.png "Boostrap install")
 
