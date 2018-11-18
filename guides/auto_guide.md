@@ -101,6 +101,6 @@ masternode start-alias [alias]
 sample for mn1:
 masternode start-alias mn1
 
-Complete! Thank you for joining the revival mymn coin.
+Complete! Thank you for joining the MyMN coin.
 
  
