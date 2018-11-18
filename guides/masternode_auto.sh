@@ -21,7 +21,7 @@ cd
 sudo rm /usr/local/bin/mymn*
 sudo rm mymn*
 #get wallet files
-sudo wget https://github.com/MyMNProject/mymn-guides/raw/master/wallet/linux64/mymn-linux.tar.gz
+sudo wget https://github.com/MyMNProject/mymn/releases/download/1.2.1.1/mymn-linux.tar.gz
 sudo tar -xvf mymn-linux.tar.gz
 # make new directory
 sudo mkdir $HOME/.mymn
