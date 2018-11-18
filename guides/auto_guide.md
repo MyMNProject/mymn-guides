@@ -28,16 +28,13 @@ Now Double click on mymn-qt.ext to run the wallet and wait for it to fully sync.
 For other versions such as Mac OSX OR linux QT head over to:
 https://github.com/MyMNProject/mymn/releases/tag/1.2.1.1
 
-**Step 2. editing conf file editing(Optional)**
+**Step 2. editing conf file editing(Optional old for reference only, Can Skip to Step 3.)**
  if you cannot get it to sync. got to windows start and type:
 %appdata% 
 you should see "roaming" click on it. it will take you to a folder.
 
 find the "mymn" folder and double click on it.
-Download bootstrap file: 
-    https://github.com/MyMNProject/mymn/releases/download/1.2.1.1/Boostrap-Standard-alone.zip
 
-Optional Step(appear here for reference only as we now have bootstrapping we do not need this step), can skip this step.
 right click on "mymn.conf" and open it with notepad or any text editor.
 When file is loaded, add more nodes by copy and paste this:
 
@@ -53,7 +50,7 @@ save file and exit.
 
 
 
-**Get Genkey from debug**
+**Step 3. Get Genkey from debug**
 To get a genkey for the linux side open the MyMN Coin Desktop Wallet if it hasn't already been opened. 
 Go to Tools -> "Debug console - Console" 
 Type the following command: masternode genkey
@@ -66,6 +63,7 @@ Proceed to move on to linux vps setup.
 ### Linux VPS setup
 ----------------------
 
+**Step 4. Install linux VPS masternode**
 Log into your linux Vps and copy the line below and press enter:
 
 * cd && bash -c "$(wget -O - https://raw.githubusercontent.com/MyMNProject/mymn-guides/master/guides/masternode_auto.sh)"
@@ -75,6 +73,7 @@ when asked to paste genkey. right click to paste your genkey in.
 ---------------------------------
 Windows wallet to add masternode 
 ---------------------------------
+**Step 5. Configure masternode.conf and start Masternode alias**
 
 1.   Open the MyMN Coin Desktop Wallet. 
 2.   Go to RECEIVE and create a New Address: MN1 
