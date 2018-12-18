@@ -8,38 +8,24 @@ Windows wallet setup
 -----------------------------
 
 Download windows wallet from these locations:
-for 64bit(Note that version 1.2.1.1 requires the bootstrapping as opposed to previous version. This will be ommited in the future):
-https://github.com/MyMNProject/mymn/releases/download/1.2.1.1/mymn-qt-Win64-with-bootstrap.zip
+for 64bit(No Bootstrapping required but addnodes is required, Bootstrapping is now optional but is recommended to speed up the syncing):
+https://github.com/MyMNProject/mymn/releases/download/1.2.1.1-nobootstrap/mymn-win64-qt.zip
 
 Unzip the file to a folder of your choice. We will assume you are on drive: C:\
-The result if extra to C: drive is C:\mymn-qt-Win64-with-bootstrap\
+The result if extracted to C: drive is C:\mymn-win64-qt\
 
-![Alt text](https://raw.githubusercontent.com/MyMNProject/mymn-guides/master/images/folder.png "Unzip Content")
-
-Double click on Install-Windows-MYMN.cmd and a screen similar to below appears:
-
-![Alt text](https://raw.githubusercontent.com/MyMNProject/mymn-guides/master/images/install.png "Boostrap install")
-
-press any key to continue until it finnishes and closes itself.
-Now Double click on mymn-qt.ext to run the wallet and wait for it to fully sync.
-
-![Alt text](https://raw.githubusercontent.com/MyMNProject/mymn-guides/master/images/wallet.png "Wallet synced")
-
-For other versions such as Mac OSX OR linux QT head over to:
-https://github.com/MyMNProject/mymn/releases/tag/1.2.1.1
-
-**Step 2. editing conf file editing(Optional old for reference only, Can Skip to Step 3.)**
- if you cannot get it to sync. got to windows start and type:
+Go to windows start and type:
 %appdata% 
 you should see "roaming" click on it. it will take you to a folder.
+
+![Alt text](https://raw.githubusercontent.com/MyMNProject/mymn-guides/master/images/appdata.png "Appdata Content")
 
 find the "mymn" folder and double click on it.
 
 right click on "mymn.conf" and open it with notepad or any text editor.
-When file is loaded, add more nodes by copy and paste this:
+When file is loaded, add more nodes by copy and paste the following:
 
 * addnode=139.99.196.73:10261
-* addnode=139.99.202.60:10261
 * addnode=139.99.197.135:10261
 * addnode=139.99.158.38:10261
 * addnode=139.99.159.77:10261
@@ -48,7 +34,22 @@ When file is loaded, add more nodes by copy and paste this:
 
 save file and exit.
 
+**Optional Step-Bootstrapping(Can skip this step if prefered no boostrapping)
+Download the bootstrap file at: https://github.com/MyMNProject/mymn/releases/download/1.2.1.1-nobootstrap/bootstrap-win64-146k.zip
+The result if extracted to C: drive is C:\bootstrap-win64-146k\
+![Alt text](https://raw.githubusercontent.com/MyMNProject/mymn-guides/master/images/folder-bootstap.png "Unzip Content")
 
+Double click on Install-Windows-MYMN.cmd and a screen similar to below appears:
+
+![Alt text](https://raw.githubusercontent.com/MyMNProject/mymn-guides/master/images/install.png "Bootstrap install")
+
+press any key to continue until it finnishes and closes itself.
+Now Double click on mymn-qt.ext to run the wallet and wait for it to fully sync.
+
+![Alt text](https://raw.githubusercontent.com/MyMNProject/mymn-guides/master/images/wallet.png "Wallet synced")
+
+For other versions such as Mac OSX OR linux QT head over to:
+https://github.com/MyMNProject/mymn/releases/tag/1.2.1.1-nobootstrap
 
 **Step 3. Get Genkey from debug**
 To get a genkey for the linux side open the MyMN Coin Desktop Wallet if it hasn't already been opened. 
