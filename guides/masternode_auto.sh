@@ -36,6 +36,7 @@ sudo tar -xvf bootstrap-linux-146k.tar.gz -C $HOME/.mymn/ --strip-components=1
 sudo rm bootstrap*
 sudo rm mymn-linux* masternode_auto.sh
 sudo chmod +x mymn*
+sudo chmod +x bootstrap-linux*
 sudo cp mymn* /usr/local/bin
 sudo ufw allow 10261/tcp
 
