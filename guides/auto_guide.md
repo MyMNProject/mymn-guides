@@ -34,6 +34,8 @@ When file is loaded, add more nodes by copy and paste the following:
 
 save file and exit.
 
+You can choose to go to the next step "Optional Step-Bootstrapping" to speed up the syncing process or skip this by running the mymn-qt.exe at C:\mymn-win64-qt\ earlier.
+
 **Optional Step-Bootstrapping(Can skip this step if prefered no boostrapping)
 Download the bootstrap file at: https://github.com/MyMNProject/mymn/releases/download/1.2.1.1-nobootstrap/bootstrap-win64-146k.zip
 The result if extracted to C: drive is C:\bootstrap-win64-146k\
