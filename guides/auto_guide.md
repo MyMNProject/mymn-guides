@@ -39,7 +39,7 @@ You can choose to go to the next step "Optional Step-Bootstrapping" to speed up 
 **Optional Step-Bootstrapping(Can skip this step if prefered no boostrapping)
 Download the bootstrap file at: https://github.com/MyMNProject/mymn/releases/download/1.2.1.1-nobootstrap/bootstrap-win64-146k.zip
 The result if extracted to C: drive is C:\bootstrap-win64-146k\
-![Alt text](https://raw.githubusercontent.com/MyMNProject/mymn-guides/master/images/folder-bootstap.png "Unzip Content")
+![Alt text](https://raw.githubusercontent.com/MyMNProject/mymn-guides/master/images/folder-bootstrap.png "Unzip Content")
 
 Double click on Install-Windows-MYMN.cmd and a screen similar to below appears:
 
